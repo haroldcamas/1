@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/6a79530112.js" crossorigin="anonymous"></script>
+  <!-- Material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Parallax</title>
+</head>
+<body>
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="image1.jpg" alt="">
+        </div>
+    </div>
+    <div class="section grey lighten-3">
+        <a class="btn green waves-effect waves-light"onclick="M.toast({
+            html: 'Creative Web Design',
+            inDuration: 1000,
+            completeCallback: function (){
+              alert('Your toast was dismissed');
+            },
+            classes: 'rounded'
+          
+            })">Toast</a>
+        <a class="btn tooltipped" data-position="bottom" data-tooltip="I am a tooltip">Hover me!</a>
+        
+        <div class="row container">
+            <h2 class="header greyitext">Parallax example</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, assumenda pariatur. Quo officia rem aliquam minima. Hic labore, laboriosam nemo minima quos porro iste blanditiis nam fuga quo aliquid repellat.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium quo iste, mollitia explicabo in distinctio quidem molestias rem nam atque, temporibus commodi? Aliquid blanditiis libero odit reiciendis autem! Nisi, modi.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos numquam, necessitatibus, quaerat esse, eum culpa non maiores a officia alias est libero sequi illo maxime nobis temporibus? Debitis, illum alias!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo soluta facilis nulla beatae quam consectetur dolor sequi, aliquid labore recusandae. Neque totam consectetur voluptate similique earum iusto quam cumque blanditiis.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, reiciendis dignissimos aspernatur, quo inventore aliquid omnis, fuga odit sed ut facere neque eveniet vel deserunt. Aliquam similique tempora inventore quos!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere ullam natus nemo ipsam excepturi quas mollitia ipsa odio quae itaque veritatis pariatur at corporis cum quia, architecto dolores commodi quisquam.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse error, architecto fuga voluptatem delectus voluptatibus unde deleniti. Debitis officia excepturi veritatis recusandae vitae impedit, odit unde itaque? Corrupti, laborum ullam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quos enim totam hic dolores animi esse, eaque eum ea in tempora exercitationem debitis, iste ad, laborum iusto qui natus voluptatibus?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus numquam nihil quasi voluptatum, placeat, tempore qui ipsam exercitationem aut impedit itaque quidem temporibus! Cumque excepturi tempora architecto ullam ipsam. Consequuntur.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae unde ipsa eaque at dignissimos quae ea non expedita, amet magni aut? Omnis quae fuga repellendus voluptatem aspernatur modi enim exercitationem?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque modi harum placeat temporibus nisi omnis, nobis minus ipsum facilis in nam, aliquam error? Facilis sunt expedita sed voluptatibus magnam quasi.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus corporis praesentium maxime, unde magnam dolore, debitis voluptatem laboriosam repellendus doloribus sequi vitae itaque laborum? Nemo vel eligendi nesciunt corporis eveniet.
+            </p>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="image2.webp" alt="">
+        </div>
+    </div>
+    <ul class="collapsible">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+      </ul>
+            
+    <div>
+        
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+ $(document).ready(function(){
+    $('.parallax').parallax();
+    responsiveThreshold: 0
+  });
+  </script>
+  <script>$(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+  </script>
+  <script>  $(document).ready(function(){
+    $('.tooltipped').tooltip();
+  });</script>
+</body>
+</html>

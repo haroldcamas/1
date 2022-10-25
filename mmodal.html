@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/6a79530112.js" crossorigin="anonymous"></script>
+  <!-- Material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body class="grey lighten-2">
+  <div class="container"></div>
+    <h1 class="pink-text">Modal</h1>
+  <!-- Modal Trigger -->
+  <a class="btn blue waves-effect waves-light modal-trigger" href="#modal1">Modal</a>
+  
+          
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, animi nesciunt magni quis, dolorum perferendis asperiores nihil enim, tempore repellat eaque. Magni dicta vitae delectus sunt, architecto corrupti ullam animi.</p>
+    </div>
+    <div class="modal-footer grey-3">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+      
+    </div>
+  </div>
+
+
+  <button data-target="modal1" class="btn modal-trigger">Modal</button>
+
+  <!--Bottom sheet modal-->
+  
+  <!-- Modal Trigger -->
+  <a class=" red waves-effect waves-light btn modal-trigger" href="#modal3">Modal</a>
+
+  <!-- Modal Structure -->
+  <div id="modal3" class="modal bottom-sheet">
+    <div class="modal-content">
+        <ul class="collection">
+            <li class="collection-item avatar blue">
+              <i class="material-icons circle black-text">folder</i>
+              <span class="title">Title</span>
+              <p>First Line <br>
+                 Second Line
+              </p>
+              <a href="#!" class="secondary-content">
+                <i class="material-icons white-text">grade</i></a>
+            </li>
+            <li class="collection-item avatar red">
+              <i class="material-icons circle black-text">folder</i>
+              <span class="title">Title</span>
+              <p>First Line <br>
+                 Second Line
+              </p>
+              <a href="#!" class="secondary-content">
+                <i class="material-icons white-text">grade </i></a>
+            </li>
+            <li class="collection-item avatar yellow">
+              <i class="material-icons circle black-text">insert_chart</i>
+              <span class="title">Title</span>
+              <p>First Line <br>
+                 Second Line
+              </p>
+              <a href="#!" class="secondary-content">
+                <i class="material-icons white-text">grade</i></a>
+                
+            </li>
+        
+            </li>
+          </ul>
+          <div class="modal-footer grey-3">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+    <div 
+
+
+          
+  
+
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script>$(document).ready(function(){
+    $('.modal').modal();
+  });
+          </script>
+</body>
+</html>
